@@ -53,12 +53,12 @@ def get_osrm_route(coords):
         return None
     
 
-    # Random Color
+# Random Color
 def get_random_color():
     return '#%06X' % np.random.randint(0, 0xFFFFFF)
 
 
-## Main Function 
+# Main Function 
 def generate_vehicle_images(solution, manager, routing,
                             locations, demands,
                             vehicle_count, solution_name):
